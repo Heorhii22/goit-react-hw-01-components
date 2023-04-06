@@ -23,4 +23,4 @@ export const App = () => {
   );
 };
 
-console.log('test');
+console.log('test2');
