@@ -4,7 +4,6 @@ margin: 0 auto;
 margin-top: 40px;
 outline: 4px solid black;
 text-align: center;
-background-color:black;
 border-radius: 6px;
 }
 
@@ -16,14 +15,10 @@ border-radius: 6px;
     font-size: larger;
 }
 
-.transactionType {
-    background-color:coral;
+.tableColors {
+    background-color:blanchedalmond;
 }
 
-.transactionAmount {
-    background-color:greenyellow;
-}
-
-.transactionCurrency {
-    background-color: dodgerblue;
+.tableColors:nth-child(2n){
+    background-color:burlywood;
 }
