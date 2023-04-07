@@ -1,16 +1,17 @@
+import css from './FriendList.module.css';
 export function FriendList({ friends }) {
   return (
-    <ul class="friend-list">
+    <ul className={css.friends}>
       {friends.map(friend => (
-        <li key={friend.id} class="item">
-          <span class="status">{friend.isOnline ? 'ONLINE' : 'OFFLINE'}</span>
+        <li key={friend.id} className={css.itemStatus}>
+          <span className={friend.isOnline ? css.online : css.offline}></span>
           <img
-            class="avatar"
+            className="avatar"
             src={friend.avatar}
             alt="User avatar"
             width="48"
           />
-          <p class="name">{friend.name}</p>
+          <p className="name">{friend.name}</p>
         </li>
       ))}
     </ul>

@@ -1,0 +1,39 @@
+
+.friends {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    padding-left: 0;
+    list-style: none;
+    margin: 0 auto;
+    margin-top: 40px;
+    gap: 5px;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 6px;
+}   
+
+.online {
+    display: block;
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.offline {
+    display: block;
+background-color: red;
+    border-radius: 50%;
+    width: 15px;
+        height: 15px;
+}
+
+.itemStatus {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    gap: 5px;
+}

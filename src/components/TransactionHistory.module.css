@@ -1,0 +1,29 @@
+.transactionTable {
+width: 400px;
+margin: 0 auto;
+margin-top: 40px;
+outline: 4px solid black;
+text-align: center;
+background-color:black;
+border-radius: 6px;
+}
+
+.headers {
+    background-color: beige;    
+}
+
+.transactionTittle {
+    font-size: larger;
+}
+
+.transactionType {
+    background-color:coral;
+}
+
+.transactionAmount {
+    background-color:greenyellow;
+}
+
+.transactionCurrency {
+    background-color: dodgerblue;
+}

@@ -1,3 +1,4 @@
+import css from './Profile.module.css';
 export function Profile({
   username,
   avatar,
@@ -6,17 +7,17 @@ export function Profile({
   stats: { followers, views, likes },
 }) {
   return (
-    <div className="profile">
-      <div className="description">
+    <div className={css.profile}>
+      <div className={css.description}>
         <img src={avatar} alt="User avatar" className="avatar" />
-        <p className="name">{username}</p>
-        <p className="tag">@{tag}</p>
-        <p className="location">{location}</p>
+        <p className={css.name}>{username}</p>
+        <p className={css.tag}>@{tag}</p>
+        <p className={css.location}>{location}</p>
       </div>
 
-      <ul className="stats">
+      <ul className={css.stats}>
         <li>
-          <span className="label">Followers</span>
+          <span>Followers</span>
           <span className="quantity">{followers}</span>
         </li>
         <li>
